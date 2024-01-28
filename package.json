@@ -1,8 +1,8 @@
 {
 	"name": "stylelint-config-sweet",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Stylelint extendable config for the most sweet-ass CSS and Sass. 🤙🏼",
-	"main": "./stylelint.config.cjs",
+	"main": "stylelint.config.cjs",
 	"repository": "https://github.com/robinloeffel/stylelint-config-sweet.git",
 	"homepage": "https://github.com/robinloeffel/stylelint-config-sweet",
 	"bugs": "https://github.com/robinloeffel/stylelint-config-sweet/issues",
@@ -13,8 +13,7 @@
 		"stylelint-config"
 	],
 	"files": [
-		"rules",
-		"config"
+		"stylelint.config.cjs"
 	],
 	"dependencies": {
 		"@isnotdefined/stylelint-plugin": "^4.0.0",
