@@ -26,6 +26,7 @@
 		"stylelint-config-standard-scss": "^13.1.0"
 	},
 	"devDependencies": {
+		"@tsconfig/strictest": "^2.0.5",
 		"eslint": "^8.57.0",
 		"eslint-config-sweet": "^20.0.0",
 		"eslint-define-config": "^2.1.0",

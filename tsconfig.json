@@ -1,19 +1,9 @@
 {
+	"extends": "@tsconfig/strictest/tsconfig.json",
 	"compilerOptions": {
 		"target": "esnext",
-		"lib": ["esnext", "dom", "dom.iterable"],
-		"module": "esnext",
-		"moduleResolution": "bundler",
+		"module": "preserve",
 		"moduleDetection": "force",
-		"strict": true,
-		"noEmit": true,
-		"noUncheckedIndexedAccess": true,
-		"noUnusedLocals": true,
-		"noUnusedParameters": true,
-		"forceConsistentCasingInFileNames": true,
-		"verbatimModuleSyntax": true,
-		"skipLibCheck": true,
-		"allowJs": true,
-		"checkJs": true
+		"noEmit": true
 	}
 }
