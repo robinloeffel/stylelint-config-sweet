@@ -19,7 +19,7 @@ As soon as you've installed the package, you can extend from it. To do that, fin
 
 ```js
 module.exports = {
-  extends: "sweet"
+  extends: "stylelint-config-sweet"
 };
 ```
 

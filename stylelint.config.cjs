@@ -54,5 +54,8 @@ module.exports = {
 		"scss/property-no-unknown": true,
 		"scss/selector-no-redundant-nesting-selector": true,
 		"scss/selector-no-union-class-name": true
-	}
+	},
+	reportDescriptionlessDisables: true,
+	reportInvalidScopeDisables: true,
+	reportNeedlessDisables: true
 };

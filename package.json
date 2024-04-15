@@ -1,39 +1,39 @@
 {
 	"name": "stylelint-config-sweet",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Stylelint extendable config for the most sweet-ass CSS and Sass. 🤙🏼",
-	"main": "stylelint.config.cjs",
-	"repository": "https://github.com/robinloeffel/stylelint-config-sweet.git",
-	"homepage": "https://github.com/robinloeffel/stylelint-config-sweet",
-	"bugs": "https://github.com/robinloeffel/stylelint-config-sweet/issues",
-	"author": "Robin Löffel (https://robinloeffel.ch) <hi@robinloeffel.ch>",
-	"license": "MIT",
 	"keywords": [
 		"stylelint",
 		"stylelint-config"
 	],
+	"homepage": "https://github.com/robinloeffel/stylelint-config-sweet",
+	"bugs": "https://github.com/robinloeffel/stylelint-config-sweet/issues",
+	"repository": "https://github.com/robinloeffel/stylelint-config-sweet.git",
+	"license": "MIT",
+	"author": "Robin Löffel (https://robinloeffel.ch) <hi@robinloeffel.ch>",
+	"main": "stylelint.config.cjs",
 	"files": [
 		"stylelint.config.cjs"
 	],
+	"scripts": {
+		"start": "vitest"
+	},
 	"dependencies": {
-		"@isnotdefined/stylelint-plugin": "^4.0.0",
+		"@isnotdefined/stylelint-plugin": "^5.0.0",
 		"@stylistic/stylelint-config": "^1.0.1",
 		"stylelint-config-html": "^1.1.0",
-		"stylelint-config-recess-order": "^4.6.0",
-		"stylelint-config-standard-scss": "^13.0.0"
+		"stylelint-config-recess-order": "^5.0.1",
+		"stylelint-config-standard-scss": "^13.1.0"
 	},
 	"devDependencies": {
-		"eslint": "^8.56.0",
-		"eslint-config-sweet": "^18.0.0",
+		"eslint": "^8.57.0",
+		"eslint-config-sweet": "^20.0.0",
 		"eslint-define-config": "^2.1.0",
-		"stylelint": "^16.2.1",
-		"typescript": "^5.3.3",
-		"vitest": "^1.2.2"
+		"stylelint": "^16.3.1",
+		"typescript": "^5.4.5",
+		"vitest": "^1.5.0"
 	},
 	"peerDependencies": {
 		"stylelint": "^16"
-	},
-	"scripts": {
-		"start": "vitest"
 	}
 }
