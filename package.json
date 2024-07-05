@@ -1,6 +1,6 @@
 {
 	"name": "stylelint-config-sweet",
-	"version": "1.0.3",
+	"version": "2.0.0",
 	"description": "Stylelint extendable config for the most sweet-ass CSS and Sass. 🤙🏼",
 	"keywords": [
 		"stylelint",
@@ -11,9 +11,10 @@
 	"repository": "https://github.com/robinloeffel/stylelint-config-sweet.git",
 	"license": "MIT",
 	"author": "Robin Löffel (https://robinloeffel.ch) <hi@robinloeffel.ch>",
-	"main": "stylelint.config.cjs",
+	"type": "module",
+	"main": "stylelint.config.js",
 	"files": [
-		"stylelint.config.cjs"
+		"stylelint.config.js"
 	],
 	"scripts": {
 		"start": "vitest"
@@ -26,13 +27,13 @@
 		"stylelint-config-standard-scss": "^13.1.0"
 	},
 	"devDependencies": {
-		"@tsconfig/strictest": "^2.0.5",
 		"eslint": "^8.57.0",
-		"eslint-config-sweet": "^20.0.0",
+		"eslint-config-sweet": "^21.0.0",
 		"eslint-define-config": "^2.1.0",
-		"stylelint": "^16.3.1",
-		"typescript": "^5.4.5",
-		"vitest": "^1.5.0"
+		"robins-tsconfig": "^1.0.0",
+		"stylelint": "^16.6.1",
+		"typescript": "^5.5.3",
+		"vitest": "^1.6.0"
 	},
 	"peerDependencies": {
 		"stylelint": "^16"
