@@ -1,5 +1,8 @@
 /** @type {import("stylelint").Config} */
 export default {
+	reportNeedlessDisables: true,
+	reportInvalidScopeDisables: true,
+	reportDescriptionlessDisables: true,
 	extends: [
 		"stylelint-config-standard-scss",
 		"stylelint-config-recess-order",
@@ -42,8 +45,5 @@ export default {
 		"scss/property-no-unknown": true,
 		"scss/selector-no-redundant-nesting-selector": true,
 		"scss/selector-no-union-class-name": true
-	},
-	reportDescriptionlessDisables: true,
-	reportInvalidScopeDisables: true,
-	reportNeedlessDisables: true
+	}
 };
