@@ -18,7 +18,8 @@ npm i stylelint-config-sweet -D
 As soon as you've installed the package, you can extend from it. To do that, find your [config file](https://stylelint.io/user-guide/configure/), and add the following line:
 
 ```js
-module.exports = {
+/** @type {import("stylelint").Config} */
+export default {
   extends: "stylelint-config-sweet"
 };
 ```
