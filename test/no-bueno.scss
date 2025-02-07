@@ -1,13 +1,13 @@
 .SomeWeird--concoction {
-	top: 0;
-	lefT: 0px;
+  top: 0;
+  lefT: 0px;
 
-	$var: OOF;
+  $var: OOF;
 
-	grid-gap: 9px;
-	z-index: -1;
+  grid-gap: 9px;
+  z-index: -1;
 
-	@if ($var != null) {
-		colour: yellow;
-	}
+  @if ($var != null) {
+    colour: yellow;
+  }
 }

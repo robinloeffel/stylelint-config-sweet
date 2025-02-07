@@ -1,40 +1,40 @@
 {
-	"name": "stylelint-config-sweet",
-	"version": "4.0.0",
-	"description": "Stylelint extendable config for the most sweet-ass CSS and Sass. 🤙🏼",
-	"keywords": [
-		"stylelint",
-		"stylelint-config"
-	],
-	"homepage": "https://github.com/robinloeffel/stylelint-config-sweet",
-	"bugs": "https://github.com/robinloeffel/stylelint-config-sweet/issues",
-	"repository": "https://github.com/robinloeffel/stylelint-config-sweet.git",
-	"license": "MIT",
-	"author": "Robin Löffel (https://robinloeffel.ch) <hi@robinloeffel.ch>",
-	"type": "module",
-	"main": "stylelint.config.js",
-	"files": [
-		"stylelint.config.js"
-	],
-	"scripts": {
-		"start": "vitest"
-	},
-	"dependencies": {
-		"@isnotdefined/stylelint-plugin": "^5.0.0",
-		"@stylistic/stylelint-config": "^2.0.0",
-		"stylelint-config-html": "^1.1.0",
-		"stylelint-config-recess-order": "^5.1.1",
-		"stylelint-config-standard-scss": "^14.0.0"
-	},
-	"devDependencies": {
-		"eslint": "^9.18.0",
-		"eslint-config-sweet": "^22.1.3",
-		"robins-tsconfig": "^1.0.0",
-		"stylelint": "^16.12.0",
-		"typescript": "^5.7.3",
-		"vitest": "^2.1.8"
-	},
-	"peerDependencies": {
-		"stylelint": "^16"
-	}
+  "name": "stylelint-config-sweet",
+  "version": "5.0.0",
+  "description": "Stylelint extendable config for the most sweet-ass CSS and Sass. 🤙🏼",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "homepage": "https://github.com/robinloeffel/stylelint-config-sweet",
+  "bugs": "https://github.com/robinloeffel/stylelint-config-sweet/issues",
+  "repository": "https://github.com/robinloeffel/stylelint-config-sweet.git",
+  "license": "MIT",
+  "author": "Robin Löffel (https://robinloeffel.ch) <hi@robinloeffel.ch>",
+  "type": "module",
+  "main": "stylelint.config.js",
+  "files": [
+    "stylelint.config.js"
+  ],
+  "scripts": {
+    "start": "vitest"
+  },
+  "dependencies": {
+    "@isnotdefined/stylelint-plugin": "^5.0.0",
+    "@stylistic/stylelint-config": "^2.0.0",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-recess-order": "^6.0.0",
+    "stylelint-config-standard-scss": "^14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "eslint-config-sweet": "^22.1.3",
+    "robins-tsconfig": "^1.0.0",
+    "stylelint": "^16.14.1",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  },
+  "peerDependencies": {
+    "stylelint": "^16"
+  }
 }
