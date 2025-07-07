@@ -1,9 +1,12 @@
 import stylelint from "stylelint";
-import { expect, test } from "vitest";
+import { describe, expect, it } from "vitest";
 
-const files = "./test/muy-bien.scss";
-const { errored } = await stylelint.lint({ files });
+const { errored } = await stylelint.lint({
+  files: "./test/muy-bien.scss"
+});
 
-test("found no errors", () => {
-  expect(errored).toBe(false);
+describe("muy bien", () => {
+  it("found no errors", () => {
+    expect(errored).toBe(false);
+  });
 });

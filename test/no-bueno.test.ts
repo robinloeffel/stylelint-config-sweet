@@ -1,45 +1,48 @@
 import stylelint from "stylelint";
-import { expect, test } from "vitest";
+import { describe, expect, it } from "vitest";
 
-const files = "./test/no-bueno.scss";
-const { errored, results } = await stylelint.lint({ files });
-
-test("found errors", () => {
-  expect(errored).toBe(true);
+const { errored, results } = await stylelint.lint({
+  files: "./test/no-bueno.scss"
 });
 
-test("found selector pattern mismatch (vanilla stylelint)", () => {
-  expect(results.at(0)?.warnings.find(
-    warning => warning.rule === "selector-class-pattern"
-  )).toBeTruthy();
-});
+describe("no bueno", () => {
+  it("found errors", () => {
+    expect(errored).toBe(true);
+  });
 
-test("found wrong property case (@stylistic/stylelint-config)", () => {
-  expect(results.at(0)?.warnings.find(
-    warning => warning.rule === "@stylistic/property-case"
-  )).toBeTruthy();
-});
+  it("found selector pattern mismatch (vanilla stylelint)", () => {
+    expect(results.at(0)?.warnings.find(
+      warning => warning.rule === "selector-class-pattern"
+    )).toBeDefined();
+  });
 
-test("found obsolete property (@isnotdefined/stylelint-plugin)", () => {
-  expect(results.at(0)?.warnings.find(
-    warning => warning.rule === "@isnotdefined/no-obsolete"
-  )).toBeTruthy();
-});
+  it("found wrong property case (@stylistic/stylelint-config)", () => {
+    expect(results.at(0)?.warnings.find(
+      warning => warning.rule === "@stylistic/property-case"
+    )).toBeDefined();
+  });
 
-test("found unordered ruleset (stylelint-config-recess-order)", () => {
-  expect(results.at(0)?.warnings.find(
-    warning => warning.rule === "order/properties-order"
-  )).toBeTruthy();
-});
+  it("found obsolete property (@isnotdefined/stylelint-plugin)", () => {
+    expect(results.at(0)?.warnings.find(
+      warning => warning.rule === "@isnotdefined/no-obsolete"
+    )).toBeDefined();
+  });
 
-test("found unnecessary if not null (stylelint-config-standard-scss)", () => {
-  expect(results.at(0)?.warnings.find(
-    warning => warning.rule === "order/properties-order"
-  )).toBeTruthy();
-});
+  it("found unordered ruleset (stylelint-config-recess-order)", () => {
+    expect(results.at(0)?.warnings.find(
+      warning => warning.rule === "order/properties-order"
+    )).toBeDefined();
+  });
 
-test("found unknown property (extra rule of config)", () => {
-  expect(results.at(0)?.warnings.find(
-    warning => warning.rule === "scss/property-no-unknown"
-  )).toBeTruthy();
+  it("found unnecessary if not null (stylelint-config-standard-scss)", () => {
+    expect(results.at(0)?.warnings.find(
+      warning => warning.rule === "order/properties-order"
+    )).toBeDefined();
+  });
+
+  it("found unknown property (extra rule of config)", () => {
+    expect(results.at(0)?.warnings.find(
+      warning => warning.rule === "scss/property-no-unknown"
+    )).toBeDefined();
+  });
 });

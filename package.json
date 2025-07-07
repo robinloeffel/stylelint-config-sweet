@@ -1,6 +1,6 @@
 {
 	"name": "stylelint-config-sweet",
-	"version": "5.1.0",
+	"version": "6.0.0",
 	"description": "Stylelint extendable config for the most sweet-ass CSS and Sass. 🤙🏼",
 	"keywords": [
 		"stylelint",
@@ -13,6 +13,7 @@
 	"author": "Robin Löffel (https://robinloeffel.ch) <hi@robinloeffel.ch>",
 	"type": "module",
 	"main": "stylelint.config.js",
+	"types": "stylelint.config.d.ts",
 	"files": [
 		"stylelint.config.js"
 	],
@@ -23,18 +24,23 @@
 		"@isnotdefined/stylelint-plugin": "^6.0.0",
 		"@stylistic/stylelint-config": "^2.0.0",
 		"stylelint-config-html": "^1.1.0",
-		"stylelint-config-recess-order": "^6.0.0",
-		"stylelint-config-standard-scss": "^14.0.0"
+		"stylelint-config-recess-order": "^7.1.0",
+		"stylelint-config-standard-scss": "^15.0.1",
+		"stylelint-order": "^7.0.0"
 	},
 	"devDependencies": {
-		"eslint": "^9.20.1",
-		"eslint-config-sweet": "^23.0.2",
-		"robins-tsconfig": "^1.0.0",
-		"stylelint": "^16.14.1",
-		"typescript": "^5.7.3",
-		"vitest": "^3.0.5"
+		"@vitest/eslint-plugin": "^1.3.4",
+		"eslint": "^9.30.1",
+		"eslint-config-sweet": "^27.0.0",
+		"robins-tsconfig": "^2.0.0",
+		"stylelint": "^16.21.1",
+		"typescript": "^5.8.3",
+		"vitest": "^3.2.4"
 	},
 	"peerDependencies": {
 		"stylelint": "^16"
+	},
+	"engines": {
+		"node": "^22"
 	}
 }
