@@ -1,6 +1,6 @@
 {
 	"name": "stylelint-config-sweet",
-	"version": "6.0.0",
+	"version": "6.1.0",
 	"description": "Stylelint extendable config for the most sweet-ass CSS and Sass. 🤙🏼",
 	"keywords": [
 		"stylelint",
@@ -23,6 +23,7 @@
 	"dependencies": {
 		"@isnotdefined/stylelint-plugin": "^6.0.0",
 		"@stylistic/stylelint-config": "^2.0.0",
+		"postcss-html": "^1.8.0",
 		"stylelint-config-html": "^1.1.0",
 		"stylelint-config-recess-order": "^7.1.0",
 		"stylelint-config-standard-scss": "^15.0.1",
