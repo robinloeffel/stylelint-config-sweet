@@ -5,7 +5,7 @@ import { defineConfig } from "eslint/config";
 export default defineConfig(
   sweet,
   {
-    files: ["*.test.js", "*.test.ts"],
+    files: ["**/*.test.ts"],
     ...vitest.configs.recommended
   }
 );

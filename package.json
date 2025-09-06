@@ -1,6 +1,6 @@
 {
 	"name": "stylelint-config-sweet",
-	"version": "6.1.0",
+	"version": "6.2.0",
 	"description": "Stylelint extendable config for the most sweet-ass CSS and Sass. 🤙🏼",
 	"keywords": [
 		"stylelint",
@@ -22,24 +22,24 @@
 	},
 	"dependencies": {
 		"@isnotdefined/stylelint-plugin": "^6.0.0",
-		"@stylistic/stylelint-config": "^2.0.0",
+		"@stylistic/stylelint-config": "^3.0.1",
 		"postcss-html": "^1.8.0",
 		"stylelint-config-html": "^1.1.0",
-		"stylelint-config-recess-order": "^7.1.0",
+		"stylelint-config-recess-order": "^7.3.0",
 		"stylelint-config-standard-scss": "^15.0.1",
 		"stylelint-order": "^7.0.0"
 	},
 	"devDependencies": {
-		"@vitest/eslint-plugin": "^1.3.4",
-		"eslint": "^9.30.1",
-		"eslint-config-sweet": "^27.0.0",
+		"@vitest/eslint-plugin": "^1.3.9",
+		"eslint": "^9.35.0",
+		"eslint-config-sweet": "^29.0.0",
 		"robins-tsconfig": "^2.0.0",
-		"stylelint": "^16.21.1",
-		"typescript": "^5.8.3",
+		"stylelint": "^16.23.1",
+		"typescript": "^5.9.2",
 		"vitest": "^3.2.4"
 	},
 	"peerDependencies": {
-		"stylelint": "^16"
+		"stylelint": "^16.23.1"
 	},
 	"engines": {
 		"node": "^22"

@@ -9,8 +9,8 @@
 
 ## Installation
 
-```sh
-npm i stylelint-config-sweet -D
+```console
+npm install --save-dev stylelint-config-sweet
 ```
 
 ## Usage
