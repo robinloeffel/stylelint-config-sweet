@@ -10,7 +10,6 @@ export default {
     "@stylistic/stylelint-config",
     "stylelint-config-html"
   ],
-  plugins: ["@isnotdefined/stylelint-plugin"],
   rules: {
     "color-named": "never",
     "property-no-unknown": null,
@@ -29,7 +28,6 @@ export default {
         message: "Avoid the \":focus\" pseudo-class. Use \":focus-visible\" instead."
       }
     ],
-    "@isnotdefined/no-obsolete": true,
     "@stylistic/block-closing-brace-newline-after": [
       "always",
       {

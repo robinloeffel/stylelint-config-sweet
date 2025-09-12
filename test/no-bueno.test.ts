@@ -22,9 +22,9 @@ describe("no bueno", () => {
     )).toBeDefined();
   });
 
-  it("found obsolete property (@isnotdefined/stylelint-plugin)", () => {
+  it("found obsolete property (stylelint-config-standard-scss)", () => {
     expect(results.at(0)?.warnings.find(
-      warning => warning.rule === "@isnotdefined/no-obsolete"
+      warning => warning.rule === "property-no-deprecated"
     )).toBeDefined();
   });
 
